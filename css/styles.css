@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color:#757575;
+  --secondary-text-color:#212121;
+  --accent-text-color:#2196F3;
+}
+body{
+  color:#757575;
+  font-size: 14px;
+  font-family: Roboto,sans-serif;
+  line-height: 1.71;
+  background-color: #E5E5E5;
+  font-weight: 400;
+}
+
+.main-titles,
+.team-titles{
+  color: #212121;
+}
+.main-titles{
+  text-transform:uppercase;
+}
+
+.site-nav a,
+.auth-nav a,
+.basement-links{
+text-decoration:none;
+color:var(--secondary-text-color);
+}
+
+.page-header a{
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:hover,
+.auth-nav a:focus,
+.basement a:hover,
+.basement a:focus,
+.menu-button:focus,
+.menu-button:hover{
+  color:var(--accent-text-color);
+}
+
+.site-nav{
+  list-style: none;
+}
+.menu-button{
+  cursor: pointer;
+}
+.our-works{
+  color:var(--secondary-text-color);
+}
+.our-works p{
+  color:var(--primary-text-color);
+}
