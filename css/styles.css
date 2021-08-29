@@ -157,3 +157,7 @@ color:var(--primary-text-color);
 .list{
   list-style: none;
 }
+
+.hide {
+  display: none;
+}
