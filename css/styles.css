@@ -20,8 +20,7 @@ body{
 
 .logo{
 font-family: Raleway,sans-serif;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
@@ -36,7 +35,7 @@ color:var(--secondary-text-color);
 .join{
 font-family: Raleway,sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
@@ -116,7 +115,6 @@ color: var(--primary-text-color);
 .text-massive p,
 .join{
 width: 270px;
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px; 
@@ -161,3 +159,10 @@ color:var(--primary-text-color);
 .hide {
   display: none;
 }
+
+.site-nav{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+  }
