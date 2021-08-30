@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="page-header">
-        <nav>
-            <a href="./" class="logo">Web<span class="text-studio">Studio</span></a>
-            <ul class="site-nav">
-                <li><a href="./studio">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="./contacts">Контакты</a></li>
-            </ul>
-
-            <ul class="auth-nav list">
-                <li><a href="mailto:vlad@htmlbook.ru">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </nav>
+            <nav class="container">
+                <a href="./" class="logo">Web<span class="text-studio">Studio</span></a>
+                <ul class="site-nav">
+                    <li><a href="./studio">Студия</a></li>
+                    <li><a href="./portfolio.html">Портфолио</a></li>
+                    <li><a href="./contacts">Контакты</a></li>
+                </ul>
+    
+                <ul class="auth-nav list">
+                    <li><a href="mailto:vlad@htmlbook.ru">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </nav>
     </header>
 <main>
-    <section>
+    <section class="hero">
         <h1 class="hero-title">Эффективные решения
             <br />для вашего бизнеса</h1>
-            <b><a class="join" href="/join">Заказать услугу</a></b>
+            <b><button class="join-button" type="button">Заказать услугу</button>
+                <!-- <a class="join" href="/join">Заказать услугу</a> -->
+            </b>
     </section>
     <section>
         <ul class="list">
