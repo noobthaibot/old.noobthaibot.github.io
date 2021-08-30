@@ -11,15 +11,15 @@
 body{
   color:#757575;
   font-size: 14px;
-  font-family: Roboto,sans-serif;
-  line-height: 1.71;
+  font-family:Roboto,sans-serif;
+  line-height:1.71;
   background-color: #E5E5E5;
   font-weight: 400;
   letter-spacing: -0.015em;
 }
 
 .logo{
-font-family: Raleway,sans-serif;
+font-family:Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
@@ -28,12 +28,14 @@ color: #2196F3;
 }
 
 .logo .text-studio{
+font-family:Raleway,sans-serif;
+font-weight:700;
 color:var(--secondary-text-color);
 }
 
 .logo-btm,
 .join{
-font-family: Raleway,sans-serif;
+font-family:Raleway,sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -44,6 +46,7 @@ text-decoration: none;
 }
 
 .logo-btm .text-studio-secondary{
+font-family:Raleway,sans-serif;
 color:var(--hover-text-color);
 }
 
@@ -79,6 +82,8 @@ color:var(--secondary-text-color);
 
 .page-header a{
 text-decoration: none;
+font-family: Raleway,sans-serif;
+
 }
 
 .site-nav a:hover,
@@ -105,7 +110,6 @@ color:var(--primary-text-color);
 
 address a{
 text-decoration: none;
-font-family: inherit;
 font-style: normal;
 color: var(--primary-text-color);
 }
