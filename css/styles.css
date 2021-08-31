@@ -1,4 +1,4 @@
-/* html 
+html 
 {
   box-sizing: border-box;
 }
@@ -7,7 +7,7 @@
 *::before,
 *::after{
   box-sizing: inherit;
-} */
+}
 
 :root {
   --primary-text-color:#757575;
@@ -90,6 +90,10 @@ text-transform:uppercase;
 text-decoration:none;
 color:var(--secondary-text-color);
 }
+.auth-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .page-header a{
 text-decoration: none;
@@ -127,7 +131,6 @@ color: var(--primary-text-color);
 .main-title,
 .text-massive p,
 .join{
-width: 270px;
 font-style: normal;
 font-weight: normal;
 font-size: 14px; 
@@ -135,11 +138,8 @@ letter-spacing: 0.03em;
 }
 
 .hero-title{
-position:absolute  ;
 width: 696px;
 height: 120px;
-left: 452px;
-top: 280px;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -147,8 +147,10 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--hover-text-color);
-padding:
-
+margin-left: 452px;
+margin-right: 452px;
+margin-top: 0px;
+margin-bottom: 280px;
 }
 
 .main-title{
@@ -187,7 +189,6 @@ color:var(--primary-text-color);
 
 .container {
   width: 1600px;
-  /* height: 100px; */
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
@@ -241,7 +242,6 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
@@ -249,6 +249,11 @@ top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+margin-left: 700px;
+margin-right: 700px;
+margin-top: 350px;
+margin-bottom: 200px;
+
 }
 
 .hero{
