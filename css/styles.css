@@ -281,14 +281,20 @@ margin-right: auto;
   margin-right: auto;
 }
 
+.slogan-container{
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .slogan {
-  width: 1170px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hover-text-color);
 }
 
 .main-text-massive {
+  width: 1170px;
   display: flex;
   background-color: var(--hover-text-color);
 }
@@ -298,14 +304,19 @@ margin-right: auto;
   background-color: var(--hover-text-color);
 }
 
-.slogan .text-massive:nth-child(3n+1) {
+.slogan .text-massive:last-child {
   margin-right: 0;
 }
 
 .slogan ul{
-  padding: 0;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  padding-top:50px;
+  padding-bottom:94px;
+  padding-right: 0;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-left: 214px;
+  margin-right: 214px;
+  margin-bottom: 0;
 }
 .our-works ul {
   padding-left: 0;
@@ -432,6 +443,10 @@ margin-left: 8px;
 .nav-menu-portfolio .list .menu-button:focus{
   background-color: #2196F3;
 }
+.basement-portfolio a:hover,
+.basement-portfolio a:focus{
+  color:var(--accent-text-color);
+}
 
 .to-do-title{
 display: block;
@@ -440,7 +455,9 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-bottom: 50px;
+padding-bottom: 50px;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .to-do ul{
@@ -449,7 +466,7 @@ margin-bottom: 50px;
 }
 
 .to-do {
-  width: 1170px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 64px;
@@ -457,8 +474,16 @@ margin-bottom: 50px;
 }
 .to-do .list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+.to-do li{
+  margin-right: 30px;
+  padding-bottom: 94px;
+}
+
+.to-do li:last-child{
+  margin-right: 0;
+  }
 
 .team-titles{
   display: block;
@@ -509,3 +534,5 @@ color:var(--secondary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
   color:var(--primary-text-color);
+}
+
