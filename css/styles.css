@@ -20,6 +20,9 @@ body{
   font-family:Roboto,sans-serif;
   line-height:1.71;
   background-color: #E5E5E5;
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-weight: 400;
   letter-spacing: -0.015em;
 }
@@ -119,10 +122,13 @@ color:var(--accent-text-color);
 .menu-button{
 cursor: pointer;
 }
+
+
 .our-works{
 color:var(--secondary-text-color);
 margin-bottom: 94px;
 }
+
 .our-works p{
 color:var(--primary-text-color);
 }
@@ -342,8 +348,9 @@ margin-right: auto;
   margin-bottom: 30px;
 
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
+  border: 2px solid #EEEEEE;
+ 
+  
  
 }
 
@@ -407,9 +414,9 @@ margin-right: auto;
 }
 
 .basement-portfolio > p {
-padding-left: 215px;
-margin-bottom: 9px;
-color: var(--hover-text-color);
+  padding-left: 215px;
+  margin-bottom: 9px;
+  color: var(--hover-text-color);
 }
 
 .nav-menu-portfolio {
@@ -427,16 +434,16 @@ color: var(--hover-text-color);
 }
 
 .nav-menu-portfolio .list .menu-button{
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-background: #F5F4FA;
-border: #F5F4FA;
-border-radius: 4px;
-padding: 6px 22px 6px;
-margin-left: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  background: #F5F4FA;
+  border: #F5F4FA;
+  border-radius: 4px;
+  padding: 6px 22px 6px;
+  margin-left: 8px;
 }
 
 .nav-menu-portfolio .list .menu-button:hover,
@@ -469,7 +476,7 @@ margin-bottom: 0;
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 64px;
+  padding-bottom: 64px;
   background-color: var(--hover-text-color);
 }
 .to-do .list {
@@ -493,17 +500,24 @@ margin-bottom: 0;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .team{
-  width: 1170px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--hover-text-color);
 }
 .team .list{
   display: flex;
-  justify-content: space-between;
-  padding: 0;
+  width: 1170px;
+  padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 0;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .team .member {
   background: #FFFFFF;
