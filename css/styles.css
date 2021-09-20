@@ -106,7 +106,7 @@ button {
   margin-right: 215px;
 }
 
-.auth-nav .item+.item {
+.auth-nav .item-mail+.item-tel {
   margin-left: 50px;
 }
 
@@ -564,4 +564,55 @@ address a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.item-mail::before{
+  display: inline-block;
+  content: '';
+  height: 16px;
+  width: 12px;
+  background-image: url(../img/envelope.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 10px;
+}
+
+.item-tel::before{
+  display: inline-block;
+  content: '';
+  height: 16px;
+  width: 10px;
+  background-image: url(../img/Vector.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 10px;
+}
+
+.main-titles::before{
+  display: inline-block;
+  content: '';
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
+}
+
+.main-titles.attention::before {
+  background-image: url(../img/anthena.svg);
+}
+
+.main-titles.punctual::before {
+  background-image: url(../img/clocks.svg);
+}
+
+.main-titles.planning::before {
+  background-image: url(../img/plan.svg);
+}
+
+.main-titles.technology::before {
+  background-image: url(../img/cosmo.svg);
 }
