@@ -129,7 +129,7 @@ button {
 
 .our-works {
   color: var(--secondary-text-color);
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .our-works p {
@@ -442,8 +442,8 @@ address a {
   width: 700px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .nav-menu-portfolio .list {
@@ -702,6 +702,11 @@ address a {
   padding-top: 72px;
 }
 
-.join-text::after{
-  
+
+.main-portfolio{
+width: 1600px;
+background-color:var(--hover-text-color) ;
+margin-right: auto;
+margin-left: auto;
+border-top: #03121f;
 }
