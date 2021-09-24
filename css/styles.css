@@ -410,13 +410,13 @@ address a {
 
 .basement-portfolio .logo-btm {
 
-  
+
   padding-left: 215px;
 }
 
 .basement-portfolio .adress .mail {
   display: block;
-  
+
   padding-left: 215px;
   margin-bottom: 9px;
 }
@@ -693,20 +693,33 @@ address a {
   margin: 0;
 }
 
-.footer-adress{
+.footer-adress {
   padding-top: 60px;
 }
 
-.footer-join{
+.footer-join {
   padding-left: 156px;
   padding-top: 72px;
 }
 
 
-.main-portfolio{
-width: 1600px;
-background-color:var(--hover-text-color) ;
-margin-right: auto;
-margin-left: auto;
-border-top: #03121f;
+.main-portfolio {
+  width: 1600px;
+  background-color: var(--hover-text-color);
+  margin-right: auto;
+  margin-left: auto;
+  border-top: #03121f;
+}
+.footer-join::after{
+  display: flex;
+  content: '';
+  background-image: url(../img/Ellipse.png),
+  url(../img/Ellipse.png),
+  url(../img/Ellipse.png),
+  url(../img/Ellipse.png);
+  background-position: 0px, 54px, 108px, 162px;
+  background-repeat: no-repeat;
+  width: 206px;
+  height: 44px;
+  margin-top: 20px;
 }
