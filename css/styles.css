@@ -723,3 +723,8 @@ address a {
   height: 44px;
   margin-top: 20px;
 }
+
+hr{
+  margin: 0;
+  border: 1px solid #ECECEC;
+}
