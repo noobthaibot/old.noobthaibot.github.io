@@ -627,10 +627,9 @@ address a {
   background-image: url(../img/cosmo.svg);
 }
 
-.team p::after {
+/* .team p::after {
   display: flex;
   content: '';
-
   height: 20px;
   background-image: url(../img/instagram.svg),
     url(../img/twitter.svg),
@@ -640,7 +639,7 @@ address a {
   background-position: 44px, 98px, 157px, 206px;
   margin-top: 28px;
   margin-bottom: 42px;
-}
+} */
 
 .our-clients {
   width: 1600px;
@@ -710,21 +709,70 @@ address a {
   margin-left: auto;
   border-top: #03121f;
 }
-.footer-join::after{
+
+hr {
+  margin: 0;
+  border: 1px solid #ECECEC;
+}
+
+.actions {
   display: flex;
-  content: '';
-  background-image: url(../img/Ellipse.png),
-  url(../img/Ellipse.png),
-  url(../img/Ellipse.png),
-  url(../img/Ellipse.png);
-  background-position: 0px, 54px, 108px, 162px;
-  background-repeat: no-repeat;
-  width: 206px;
-  height: 44px;
+  list-style: none;
+  padding: 0;
   margin-top: 20px;
 }
 
-hr{
-  margin: 0;
-  border: 1px solid #ECECEC;
+.actions-button {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0;
+  border: 0;
+}
+
+.actions-button:hover {
+  background-color: var(--accent-text-color);
+}
+
+.actions-icon {
+  padding: 12px;
+  fill: #ffffff;
+}
+
+.actions li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.member .actions{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
+
+.member .actions-button{
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+}
+
+.member .actions-icon{
+  padding: 12px;
+  fill: #AFB1B8;
+}
+
+.member .actions-button:hover {
+  background-color: var(--accent-text-color);
+}
+
+.member .actions-icon:hover {
+  fill: var(--hover-text-color);
 }
